@@ -1,0 +1,108 @@
+2021-09-26 16:37:04.301703 INFO Crashes_Analysis: EXECUTION STARTED
+
+Analysis 1: Find the number of crashes (accidents) in which number of persons killed are male?
+Analysis 1 Solution:
+180
+2021-09-26 16:37:13.196960 INFO Crashes_Analysis: ANALYSIS 1 COMPLETED
+
+Analysis 2: How many two wheelers are booked for crashes
+Analysis 2 Solution:
+757
+2021-09-26 16:37:18.652740 INFO Crashes_Analysis: ANALYSIS 2 COMPLETED
+
+Analysis 3: Which state has highest number of accidents in which females are involved?
+Analysis 3 Solution:
++-----------------+-----+
+|DRVR_LIC_STATE_ID|count|
++-----------------+-----+
+|Texas            |53319|
++-----------------+-----+
+only showing top 1 row
+
+2021-09-26 16:37:24.209537 INFO Crashes_Analysis: ANALYSIS 3 COMPLETED
+
+Analysis 4: Which are the Top 5th to 15th VEH_MAKE_IDs that contribute to a largest number of injuries including death
+Analysis 4 Solution:
++------------+
+|VEH_MAKE_ID |
++------------+
+|NISSAN      |
+|HONDA       |
+|NA          |
+|GMC         |
+|JEEP        |
+|HYUNDAI     |
+|KIA         |
+|CHRYSLER    |
+|FREIGHTLINER|
+|MAZDA       |
++------------+
+only showing top 10 rows
+
+2021-09-26 16:37:36.905803 INFO Crashes_Analysis: ANALYSIS 4 COMPLETED
+
+Analysis 5: For all the body styles involved in crashes, mention the top ethnic user group of each unique body style
+Analysis 5 Solution:
++---------------------------------+-----------------+
+|VEH_BODY_STYL_ID                 |PRSN_ETHNICITY_ID|
++---------------------------------+-----------------+
+|BUS                              |HISPANIC         |
+|NA                               |WHITE            |
+|VAN                              |WHITE            |
+|PICKUP                           |WHITE            |
+|SPORT UTILITY VEHICLE            |WHITE            |
+|PASSENGER CAR, 4-DOOR            |WHITE            |
+|FIRE TRUCK                       |WHITE            |
+|TRUCK                            |WHITE            |
+|UNKNOWN                          |UNKNOWN          |
+|AMBULANCE                        |WHITE            |
+|POLICE CAR/TRUCK                 |WHITE            |
+|MOTORCYCLE                       |WHITE            |
+|YELLOW SCHOOL BUS                |WHITE            |
+|POLICE MOTORCYCLE                |HISPANIC         |
+|PASSENGER CAR, 2-DOOR            |WHITE            |
+|TRUCK TRACTOR                    |WHITE            |
+|FARM EQUIPMENT                   |WHITE            |
+|NEV-NEIGHBORHOOD ELECTRIC VEHICLE|WHITE            |
+|OTHER  (EXPLAIN IN NARRATIVE)    |WHITE            |
+|NOT REPORTED                     |HISPANIC         |
++---------------------------------+-----------------+
+
+2021-09-26 16:37:51.341362 INFO Crashes_Analysis: ANALYSIS 5 COMPLETED
+
+Analysis 6: Among the crashed cars, what are the Top 5 Zip Codes with highest number crashes with alcohols as the contributing factor to a crash (Use Driver Zip Code)
+Analysis 6 Solution:
++--------+-----+
+|DRVR_ZIP|count|
++--------+-----+
+|null    |347  |
+|78521   |75   |
+|75067   |57   |
+|78753   |55   |
+|75070   |52   |
++--------+-----+
+only showing top 5 rows
+
+2021-09-26 16:37:56.653485 INFO Crashes_Analysis: ANALYSIS 6 COMPLETED
+
+Analysis 7: Count of Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) is above 4 and car avails Insurance
+Analysis 7 Solution:
+8849
+2021-09-26 16:38:08.760635 INFO Crashes_Analysis: ANALYSIS 7 COMPLETED
+
+Analysis 8: Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data)
+Analysis 8 Solution:
++-----------+
+|VEH_MAKE_ID|
++-----------+
+|FORD       |
+|CHEVROLET  |
+|TOYOTA     |
+|DODGE      |
+|NISSAN     |
++-----------+
+
+2021-09-26 16:38:26.295119 INFO Crashes_Analysis: ANALYSIS 8 COMPLETED
+
+2021-09-26 16:38:26.295193 INFO Crashes_Analysis: EXECUTION COMPLETED
+

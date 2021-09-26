@@ -1,0 +1,6 @@
+spark.charges_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Charges_use.csv
+spark.damages_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Damages_use.csv
+spark.endorse_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Endorse_use.csv
+spark.primary_person_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Primary_Person_use.csv
+spark.restrict_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Restrict_use.csv
+spark.units_file_path    /home/ishaan25/Documents/BGC_UseCase/Data/Units_use.csv
